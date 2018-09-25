@@ -52,7 +52,8 @@
 {"kind":"PotionOfLevitation","x":30,"y":1},
 {"kind":"Ankh","x":30,"y":1},
 {"kind":"Ration","x":30,"y":1},
-{"kind":"WarHammer","x":9,"y":29,"identified": true}
+{"kind":"WarHammer","x":9,"y":29,"identified": true},
+{"kind":"PotionOfLevitation","x":9,"y":29,"level":"-2"}
 ],
 "objects" : [
 {"kind":"Sign", "x":30, "y":1, "text":"Dep20t_Text"}
