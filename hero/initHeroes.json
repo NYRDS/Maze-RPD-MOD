@@ -1,0 +1,10 @@
+{
+"common": {
+"armor": {"kind": "ClothArmor","identified": true}
+},
+"WARRIOR": {
+"items": [{"kind": "PotionOfLiquidFlame","identified": true}, {"kind":"TomeOfMastery"}],
+"startingSp": 0,
+"maxSp": 0
+}
+}
