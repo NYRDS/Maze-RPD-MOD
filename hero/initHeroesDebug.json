@@ -1,0 +1,182 @@
+{
+  "common": {
+    "armor": {
+      "kind": "ClothArmor",
+      "identified": true
+    },
+    "items": [
+      {
+        "kind": "WandOfAmok",
+        "level":10
+      },
+      {
+        "kind": "Ankh",
+        "quantity": 100
+      },
+      {
+        "kind": "RubyCrossbow"
+      },
+      {
+        "kind": "PotionOfFrost",
+        "quantity": 100
+      },
+      {
+        "kind": "ScrollOfMagicMapping",
+        "quantity": 100
+      },
+      {
+        "kind": "ScrollOfDomination",
+        "quantity": 100
+      }
+    ],
+    "str": 15,
+    "hp": 20,
+    "magicAffinity": "Common"
+  },
+  "non_expert": {
+    "items": [
+      {
+        "kind": "Ration"
+      }
+    ]
+  },
+  "WARRIOR": {
+    "weapon": {
+      "kind": "ShortSword",
+      "identified": true
+    },
+    "str": 11,
+    "knownItems": [
+      {
+        "kind": "PotionOfStrength"
+      }
+    ]
+  },
+  "MAGE": {
+    "items": [
+      {
+        "kind": "WandOfMagicMissile",
+        "identified": true
+      }
+    ],
+    "quickslot": [
+      {
+        "kind": "WandOfMagicMissile"
+      }
+    ],
+    "knownItems": [
+      {
+        "kind": "ScrollOfIdentify"
+      }
+    ],
+    "isSpellUser": true,
+    "magicAffinity": "Elemental",
+    "startingSp": 10,
+    "maxSp": 10
+  },
+  "ROGUE": {
+    "ring1": {
+      "kind": "RingOfShadows",
+      "identified": true,
+      "level": 1
+    },
+    "knownItems": [
+      {
+        "kind": "ScrollOfMagicMapping"
+      }
+    ]
+  },
+  "HUNTRESS": {
+    "items": [
+      {
+        "kind": "Boomerang",
+        "identified": true
+      }
+    ],
+    "quickslot": [
+      {
+        "kind": "Boomerang"
+      }
+    ],
+    "hp": 15
+  },
+  "ELF": {
+    "weapon": {
+      "kind": "ElvenBow",
+      "identified": true,
+      "level": 1
+    },
+    "items": [
+      {
+        "kind": "CommonArrow",
+        "quantity": 20,
+        "identified": true
+      },
+      {
+        "kind": "ElvenDagger",
+        "identified": true
+      }
+    ],
+    "quickslot": [
+      {
+        "kind": "CommonArrow"
+      }
+    ],
+    "str": 9,
+    "hp": 15
+  },
+  "NECROMANCER": {
+    "armor": {
+      "kind": "NecromancerRobe",
+      "identified": true
+    },
+    "items": [
+      {
+        "kind": "SkeletonKey",
+        "levelId": "7",
+        "depth": "7"
+      }
+    ],
+    "hp": 10,
+    "knownItems": [
+      {
+        "kind": "PotionOfHealing"
+      }
+    ],
+    "startingSp": 10000,
+    "maxSp": 10,
+    "isSpellUser": true,
+    "magicAffinity": "Necromancy"
+  },
+  "GNOLL": {
+    "weapon": {
+      "kind": "GnollTamahawk",
+      "identified": true
+    },
+    "armor": {
+      "kind": "NoItem"
+    },
+    "items": [
+      {
+        "kind": "Dart",
+        "identified": true,
+        "quantity": 8
+      },
+      {
+        "kind":"Codex"
+      },
+      {
+        "kind":"TomeOfKnowledge"
+      }
+    ],
+    "quickslot": [
+      {
+        "kind": "Dart"
+      }
+    ],
+    "forbiddenActions":["Scroll_ACRead","TomeOfMastery_ACRead","Stylus_ACInscribe"],
+    "friendlyMobs":["Gnoll","Shaman","Brute","Shielded"],
+    "str": 15,
+    "hp": 5
+  }
+}
