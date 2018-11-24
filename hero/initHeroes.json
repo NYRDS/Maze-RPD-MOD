@@ -3,7 +3,7 @@
 "armor": {"kind": "ClothArmor","identified": true}
 },
 "WARRIOR": {
-"items": [{"kind": "PotionOfLiquidFlame","identified": true}, {"kind":"TomeOfMastery"}],
+"items": [{"kind": "PotionOfLiquidFlame","identified": true}],
 "startingSp": 0,
 "maxSp": 0
 }
