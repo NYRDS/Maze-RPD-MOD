@@ -1,4 +1,4 @@
-﻿{
+{
    "Levels":{
       "0":{"kind":"SewerLevel", "depth":0,        "size":[0,0]},
       "1":{"kind":"PredesignedLevel", "depth":1,  "size":[0,0], "file":"levelsDesc/1.json", "isSafe":true},
